@@ -1,15 +1,6 @@
 body{
     background-color: rgb(240, 229, 215);
 }
-.kep{
-    max-width: 150px;
-    float: right;
-}
-.kep2{
-    max-width: 150px;
-    float: left;
-}
-
 nav ul li{
     list-style-type: none;
     text-decoration: none;
@@ -27,6 +18,7 @@ nav ul li a{
     text-align: center;
 }
 footer{
+    grid-area: f;
     text-align: center;
     background-color: aliceblue;
 }
@@ -34,8 +26,5 @@ footer{
     max-width: 30px;
 }
 article{
-    box-sizing: border-box;
-}
-.munka img{
-    max-width: 800px;
+    grid-area: ar;
 }
