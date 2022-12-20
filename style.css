@@ -7,9 +7,7 @@ main{
     background-color: rgb(225, 191, 148);
     padding: 50px;
 }
-*{
-    box-sizing: border-box;
-}
+
 .kep{
     max-width: 150px;
     float: right;
@@ -67,6 +65,9 @@ article{
 }
 .munka img{
     max-width: 800px;
+}
+.munka table{
+    background-color:rgb(225, 191, 148) ;
 }
 .insta1 img{
     max-width: 300px;
