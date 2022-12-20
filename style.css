@@ -6,6 +6,7 @@ main{
     max-width: 1000px;
     background-color: rgb(225, 191, 148);
     padding: 50px;
+    margin: auto;
 }
 
 .kep{
@@ -26,6 +27,8 @@ main{
     border: 1px black solid;
     padding: 15px;
     text-align: center;
+    margin: auto;
+    background-color: antiquewhite;
 }
 div{
     border: 1px black solid;
@@ -35,7 +38,7 @@ div{
 
 }
 .rolam{
-    max-width: 300px;
+    max-width: 250px;
     float: right;
 }
 nav ul li{
@@ -67,6 +70,28 @@ article{
 .munka img{
     max-width: 800px;
 }
+.munka td{
+    text-align: center;
+}
+.munka td a{
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: rgb(255, 255, 255) solid 1px;
+    border-radius: 12px;
+    padding: 5px;
+    background-color: rgb(144, 190, 152);
+    color: black;
+    text-align: center;
+    font-weight: lighter;
+    font-size: large;
+    font-style: oblique;
+}
+.szoveg{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    font-style: italic;
+    font-weight: lighter;
+}
 .munka table{
     background-color:rgb(225, 191, 148) ;
 }
@@ -75,4 +100,8 @@ article{
     max-height: 300px;
     border: 1px black solid;
     padding: 15px;
+}
+.insta1{
+    margin: auto;
+    background-color: antiquewhite;
 }
