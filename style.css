@@ -34,8 +34,9 @@ div{
     border: 0;
 
 }
-nav{
+.rolam{
     max-width: 300px;
+    float: right;
 }
 nav ul li{
     list-style-type: none;
