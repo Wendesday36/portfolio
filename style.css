@@ -1,6 +1,15 @@
 body{
     background-color: rgb(240, 229, 215);
 }
+main{
+    box-sizing: border-box;
+    max-width: 1000px;
+    background-color: rgb(225, 191, 148);
+    padding: 50px;
+}
+*{
+    box-sizing: border-box;
+}
 .kep{
     max-width: 150px;
     float: right;
@@ -9,7 +18,27 @@ body{
     max-width: 150px;
     float: left;
 }
+.menu img{
+    max-width: 300px;
+    max-height: 300px;
+    border: 1px black solid;
+    padding: 15px;
+}
+.menu{
+    border: 1px black solid;
+    padding: 15px;
+    text-align: center;
+}
+div{
+    border: 1px black solid;
+    max-width: 350px;
+    padding: 0;
+    border: 0;
 
+}
+nav{
+    max-width: 300px;
+}
 nav ul li{
     list-style-type: none;
     text-decoration: none;
@@ -38,4 +67,10 @@ article{
 }
 .munka img{
     max-width: 800px;
+}
+.insta1 img{
+    max-width: 300px;
+    max-height: 300px;
+    border: 1px black solid;
+    padding: 15px;
 }

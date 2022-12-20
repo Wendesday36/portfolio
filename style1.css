@@ -1,5 +1,13 @@
 body{
     background-color: rgb(240, 229, 215);
+    
+}
+main{
+    display: grid;
+    grid-template-areas: "n n"
+                        "ar as"
+                        "ar as"
+                        "f f";
 }
 nav ul li{
     list-style-type: none;
@@ -28,3 +36,20 @@ footer{
 article{
     grid-area: ar;
 }
+article img{
+    padding: 25px;
+    border: 1px black solid;
+}
+aside{
+    grid-area: as;
+    background-color: rgb(87, 181, 150);
+    border: 1px black solid;
+}
+aside img{
+    padding: 25px;
+    border: 1px black solid;
+}
+nav{
+    grid-area: n;
+}
+
