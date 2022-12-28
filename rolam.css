@@ -3,6 +3,7 @@ body{
     
 }
 main{
+    background-color: antiquewhite;
     display: grid;
     border: 1px black solid;
     grid-template-areas: "n n"
