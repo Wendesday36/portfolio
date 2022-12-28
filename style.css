@@ -7,6 +7,7 @@ main{
     background-color: rgb(225, 191, 148);
     padding: 50px;
     margin: auto;
+    border: 1px black solid;
 }
 
 .kep{
@@ -37,7 +38,29 @@ div{
     border: 0;
 
 }
+.festes{
+    background-color: rgb(232, 217, 195);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.festes img{
+    margin: auto;
+    border: 1px black solid;
+    padding: 5px;
+}
+.tobbi{
+    text-align: center;
+    background-color: rgb(215, 180, 147);
+    
 
+}
+.tobbi a{
+    text-decoration: none;
+    font-size: large;
+    background-color: antiquewhite;
+    border-radius: 3px;
+    width:100%;
+}
 nav ul li{
     list-style-type: none;
     text-decoration: none;

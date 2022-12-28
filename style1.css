@@ -4,6 +4,7 @@ body{
 }
 main{
     display: grid;
+    border: 1px black solid;
     grid-template-areas: "n n"
                         "ar ar"
                         "as as"

@@ -7,6 +7,7 @@ main{
     background-color: rgb(225, 191, 148);
     padding: 50px;
     margin: auto;
+    border: 1px black solid;
     display: grid;
     grid-template-areas: "n n n"
                         "c c c"
