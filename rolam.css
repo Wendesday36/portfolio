@@ -38,7 +38,7 @@ footer{
 article{
     grid-area: ar;
     background-color: rgb(206, 183, 154);
-    padding: auto;
+
     margin: auto;
 }
 article p{
