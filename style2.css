@@ -54,8 +54,7 @@ article{
     border: 1px black solid;
     padding: 15px;
 }
-.szoveg {
-
+.szoveg p{
     width: 100%;
     padding: 10px;
 }
@@ -87,3 +86,22 @@ article{
     width: max-content;
     border-bottom: 1px black solid;
 }
+@media only screen and (max-width: 700px) {
+    main{
+        display: grid;
+        grid-template-areas: "n"
+        "c"
+        "f"
+        ;
+    }
+
+    }
+@media only screen and (max-width: 400px) {
+    main{
+        display: grid;
+        grid-template-areas: "n"
+        "c"
+        "f"
+        ;
+    }
+    }
