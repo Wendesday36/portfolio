@@ -96,4 +96,10 @@ nav{
         "f"
         ;
     }
+    .festes img{
+        max-width: 150px;
+    }
+    .festes{
+        grid-template-columns: none;
+    }
     }

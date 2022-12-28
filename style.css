@@ -10,14 +10,6 @@ main{
     border: 1px black solid;
 }
 
-.kep{
-    max-width: 150px;
-    float: right;
-}
-.kep2{
-    max-width: 150px;
-    float: left;
-}
 .menu img{
     max-width: 300px;
     max-height: 300px;
@@ -30,6 +22,17 @@ main{
     text-align: center;
     margin: auto;
     background-color: antiquewhite;
+
+}
+
+.felirat a{
+    text-decoration: none;
+    margin:5px;
+    font-size: medium;
+    color: black;
+}
+.felirat a:hover{
+    color: brown;
 }
 div{
     border: 1px black solid;
@@ -38,62 +41,13 @@ div{
     border: 0;
 
 }
-.festes{
-    background-color: rgb(232, 217, 195);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-.festes img{
-    margin: auto;
-    border: 1px black solid;
-    padding: 5px;
-}
-.tobbi{
-    text-align: center;
-    background-color: rgb(215, 180, 147);
-    
-
-}
-.tobbi a{
-    text-decoration: none;
-    font-size: large;
-    background-color: antiquewhite;
-    border-radius: 3px;
-    width:100%;
-}
-nav ul li{
-    list-style-type: none;
-    text-decoration: none;
-    border: rgb(255, 255, 255) solid 1px;
-    border-radius: 12px;
-    padding: 5px;
-    background-color: rgb(196, 168, 131);
-    color: white;
-    text-align: center;
-}
-nav ul li a{
-    color:rgb(51, 45, 45);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-decoration: none;
-    text-align: center;
-}
 footer{
     text-align: center;
     background-color: aliceblue;
 }
-.insta img{
-    max-width: 30px;
-}
 article{
     box-sizing: border-box;
 }
-.szoveg{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: large;
-    font-style: italic;
-    font-weight: lighter;
-}
-
 .insta1 img{
     max-width: 300px;
     max-height: 300px;
@@ -102,60 +56,27 @@ article{
 }
 .insta1{
     margin: auto;
-    align-self: center;
-}
-
-.szoveg p{
-    text-align:right;
-    width: 100%;
-   
-}
-.munka img{
-    float: left;
-    max-width: 250px;
-    margin: auto;
-}
-.gomb{
-    text-align: center;
-
+    padding-left: 15px;
 }
 header{
     text-align: center;
     font-size: larger;
     font-style: italic;
 }
-.container{
-    width: 100%;
-    padding: 0;
-    border:0;
-}
-.content{
-    width: max-content;
-    border-bottom: 1px black solid;
-}
+
 @media only screen and (max-width: 700px) {
     main{
-        display: grid;
-        grid-template-areas: "n"
-        "n"
-        "ar"
-        "f"
-        ;
+        max-width: fit-content;
     }
-    .festes img{
+    .menu img{
         max-width: 150px;
-    }
-    .festes{
-        grid-template-columns: none;
     }
     }
 @media only screen and (max-width: 400px) {
     main{
-        display: grid;
-        grid-template-areas: "h"
-        "n"
-        "ar a"
-        "f"
-        ;
+        max-width: fit-content;
+    }
+    .menu img{
+        max-width: 100px;
     }
     }
