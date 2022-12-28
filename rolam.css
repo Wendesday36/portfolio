@@ -21,6 +21,9 @@ nav ul li{
     color: white;
     text-align: center;
 }
+nav ul{
+    padding: 0;
+}
 nav ul li a{
     color:rgb(51, 45, 45);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;

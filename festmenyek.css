@@ -5,7 +5,7 @@ main{
     box-sizing: border-box;
     max-width: 1000px;
     background-color: rgb(225, 191, 148);
-    padding : 50px;
+    padding : 30px;
     margin: auto;
     border: 1px black solid;
 }
@@ -33,8 +33,11 @@ main{
     background-color: antiquewhite;
     border-radius: 3px;
     width:100%;
+    text-align: center;
 }
-
+nav ul{
+    padding: 0;
+}
 nav ul li{
     list-style-type: none;
     text-decoration: none;

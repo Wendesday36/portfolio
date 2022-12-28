@@ -13,7 +13,9 @@ main{
                         "c c c"
                         "f  f f";
 }
-
+nav ul{
+    padding: 0;
+}
 nav{
     grid-area: n;
 }
