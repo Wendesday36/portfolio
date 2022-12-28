@@ -5,7 +5,7 @@ main{
     box-sizing: border-box;
     max-width: 1000px;
     background-color: rgb(225, 191, 148);
-    padding: 50px;
+    padding : 50px;
     margin: auto;
     border: 1px black solid;
 }
