@@ -14,6 +14,9 @@ main{
     background-color: rgb(232, 217, 195);
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-area: f;
+    grid-template-areas: "f f"
+                        "t t";
 }
 .festes img{
     margin: auto;
@@ -23,10 +26,14 @@ main{
 .tobbi{
     text-align: center;
     background-color: rgb(215, 180, 147);
-    
-
+    grid-area: t;
+   
+   
 }
-
+.tobbi a:hover{
+    background-color: rgb(215, 180, 147);
+    font-weight: bold;
+}
 .tobbi a{
     text-decoration: none;
     font-size: large;
@@ -34,6 +41,7 @@ main{
     border-radius: 3px;
     width:100%;
     text-align: center;
+    color: black;
 }
 nav ul{
     padding: 0;

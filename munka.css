@@ -76,9 +76,9 @@ article{
 }
 .content{
     display: grid;
-    grid-template-areas: "s s s"
-                        "m m sz"
-                        " g g g";
+    grid-template-areas: "s s s s"
+                        "m m sz g"
+
    
 }
 .egesz{
@@ -90,11 +90,16 @@ article{
     border-radius: 10px;
     background-color: bisque;
     grid-area: g;
+    width:100%;
     
 }
 .gomb a{
     text-decoration: none;
     color: black;
+}
+.gomb a:hover{
+    background-color: rgb(215, 180, 147);
+    font-weight: bold;
 }
 .container{
     width: 100%;

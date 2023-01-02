@@ -9,6 +9,8 @@ main{
     grid-template-areas: "n n"
                         "ar ar"
                         "as as"
+                        "t t"
+                        "v v"
                         "f f";
 }
 nav ul li{
@@ -55,6 +57,17 @@ aside{
     grid-area: as;
     
 }
+.tablazat{
+    max-width: 100%;
+    grid-area: t;
+    margin: auto;
+    float: initial;
+}
+.szines{
+    background-color: rgb(206, 183, 154);
+    border-bottom: 1px black solid;
+    max-width: 100%;
+}
 aside a{
     background-color: rgb(203, 178, 146);
     color: black;
@@ -72,17 +85,59 @@ nav{
     border: 0;
     
 }
+
+.video{
+    padding: 10px;
+    width:400px;
+    
+    margin: auto;
+}
+video{
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.sorozatok{
+    float: right;
+    grid-area: v;
+    display: grid;
+    grid-template-columns: auto;
+    margin: auto;
+}
+.sorozat{
+    border-bottom: 1px black solid;
+    margin: auto;
+}
+.sorozat h3{
+    text-decoration: underline black;
+}
+.sorozatok p{
+    text-align: justify;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 @media only screen and (max-width: 700px) {
     main{
         display: grid;
         grid-template-areas: "n"
         "ar"
         "as"
+        "t"
+        "v"
         "f"
         ;
     }
+    .sorozat{
+        margin: auto;
+    }
+    .video{
+        max-width: 300px;
+    }
     article p{
         margin: 10px;
+    }
+    .tablazat{
+        max-width: 400px;
     }
     }
 @media only screen and (max-width: 400px) {
@@ -91,13 +146,24 @@ nav{
         grid-template-areas: "n"
         "ar"
         "as"
+        "t"
+        "v"
         "f"
         ;
+    }
+    .sorozat{
+        margin: auto;
+    }
+    .video{
+        max-width: 200px;
     }
     article p,article h3{
         margin: 10px;
     }
     nav{
         margin: 10px;
+    }
+    .tablazat{
+        max-width:  300px;
     }
     }
