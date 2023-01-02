@@ -14,6 +14,11 @@ nav ul{
 }
 nav{
     grid-area: n;
+    max-width: 900px;
+    margin: auto;
+}
+.insta img{
+    max-width: 30px;
 }
 nav ul li{
     list-style-type: none;
