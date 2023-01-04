@@ -130,19 +130,4 @@ nav{
         grid-template-columns: none;
     }
     }
-@media only screen and (max-width: 300px) {
-    main{
-        display: grid;
-        grid-template-areas: "n"
-        "fs"
-        "t"
-        "f"
-        ;
-    }
-    .festes img{
-        max-width: 150px;
-    }
-    .festes{
-        grid-template-columns: none;
-    }
-    }
+

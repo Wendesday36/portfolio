@@ -4,6 +4,8 @@ body{
 }
 main{
     background-color: antiquewhite;
+    margin: auto;
+    max-width: 1250px;
     display: grid;
     border: 1px black solid;
     grid-template-areas: "n n"
@@ -44,6 +46,9 @@ article{
     grid-area: ar;
     background-color: rgb(206, 183, 154);
     margin: auto;
+}
+article h3{
+    padding: 5px;
 }
 article p{
     padding: 5px;
@@ -173,6 +178,9 @@ video{
     article p,article h3{
         margin: 10px;
     }
+    article{
+        margin: auto;
+    }
     nav{
         margin: 10px;
     }
@@ -205,33 +213,5 @@ video{
     }
     .tablazat{
         max-width:  300px;
-    }
-    }
-@media only screen and (max-width: 300px) {
-    main{
-        display: grid;
-        grid-template-areas: "n"
-        "fs"
-        "t"
-        "f"
-        ;
-    }
-    nav{
-        width: auto;
-    }
-    .sorozat{
-        margin: auto;
-    }
-    .video{
-        max-width: 150px;
-    }
-    article p,article h3{
-        margin: 10px;
-    }
-    nav{
-        margin: 10px;
-    }
-    .tablazat{
-        max-width:  150px;
     }
     }

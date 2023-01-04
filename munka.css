@@ -141,13 +141,18 @@ article{
         width: 100%;
     }
     nav{
-        width: 90%;
+        width: 80%;
     }
     .container{
         padding: 20px;
+        margin: auto;
     }
     .munka img{
         width: 100%;
+    }
+    footer{
+        margin: auto
+        ;
     }
     .szoveg p{
         text-align: justify;
@@ -162,28 +167,6 @@ article{
     }
     }
 @media only screen and (max-width: 500px) {
-    main{
-        width: 100%;
-    }
-    nav{
-        width: 90%;
-    }
-    .munka img{
-        width: 100%;
-    }
-    .szoveg p{
-        text-align: justify;
-        float: none;
-    }
-    .content{
-        display: grid;
-        grid-template-areas: "s s s"
-                            "m m m"
-                            "sz sz sz"
-                            " g g g";
-    }
-    }
-@media only screen and (max-width: 300px) {
     main{
         width: 100%;
     }
