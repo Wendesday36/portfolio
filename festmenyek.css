@@ -123,20 +123,11 @@ nav{
         "f"
         ;
     }
-    .sorozat{
-        margin: auto;
+    .festes img{
+        max-width: 150px;
     }
-    .video{
-        max-width: 200px;
-    }
-    article p,article h3{
-        margin: 10px;
-    }
-    nav{
-        margin: 10px;
-    }
-    .tablazat{
-        max-width:  300px;
+    .festes{
+        grid-template-columns: none;
     }
     }
 @media only screen and (max-width: 300px) {
@@ -148,19 +139,10 @@ nav{
         "f"
         ;
     }
-    .sorozat{
-        margin: auto;
+    .festes img{
+        max-width: 150px;
     }
-    .video{
-        max-width: 100px;
-    }
-    article p,article h3{
-        margin: 10px;
-    }
-    nav{
-        margin: 10px;
-    }
-    .tablazat{
-        max-width:  150px;
+    .festes{
+        grid-template-columns: none;
     }
     }
