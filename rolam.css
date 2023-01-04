@@ -101,9 +101,8 @@ th{
     text-align: center;
 }
 .video{
-    padding: 10px;
+    height: auto;
     width:400px;
-    
     margin: auto;
 }
 .sorozat p{
@@ -118,8 +117,6 @@ video{
 .sorozatok{
     float: right;
     grid-area: v;
-    display: grid;
-    grid-template-columns: auto;
     margin: auto;
 }
 .sorozat{
