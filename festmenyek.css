@@ -14,8 +14,8 @@ main{
     background-color: rgb(232, 217, 195);
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-area: f;
-    grid-template-areas: "f f"
+    grid-area: fs;
+    grid-template-areas: "fs fs"
                         "t t";
 }
 .festes img{
@@ -86,8 +86,8 @@ nav{
     main{
         display: grid;
         grid-template-areas: "n"
-        "ar"
-        "as"
+        "fs"
+        "t"
         "f"
         ;
     }
@@ -102,8 +102,8 @@ nav{
     main{
         display: grid;
         grid-template-areas: "n"
-        "ar"
-        "as"
+        "fs"
+        "t"
         "f"
         ;
     }
@@ -112,5 +112,30 @@ nav{
     }
     .festes{
         grid-template-columns: none;
+    }
+    }
+@media only screen and (max-width: 500px) {
+    main{
+        display: grid;
+        grid-template-areas: "n"
+        "fs"
+        "t"
+        "f"
+        ;
+    }
+    .sorozat{
+        margin: auto;
+    }
+    .video{
+        max-width: 200px;
+    }
+    article p,article h3{
+        margin: 10px;
+    }
+    nav{
+        margin: 10px;
+    }
+    .tablazat{
+        max-width:  300px;
     }
     }

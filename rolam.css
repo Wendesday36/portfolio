@@ -77,8 +77,8 @@ aside a{
 }
 nav{
     grid-area: n;
-    max-width:1300px;
-    padding-left: 260px;
+    width:90%;
+    margin: auto;
 }
 .rolam{
     max-width: 200px;
@@ -169,6 +169,33 @@ video{
     }
     .video{
         max-width: 200px;
+    }
+    article p,article h3{
+        margin: 10px;
+    }
+    nav{
+        margin: 10px;
+    }
+    .tablazat{
+        max-width:  300px;
+    }
+    }
+@media only screen and (max-width: 500px) {
+    main{
+        display: grid;
+        grid-template-areas: "n"
+        "ar"
+        "as"
+        "t"
+        "v"
+        "f"
+        ;
+    }
+    .sorozat{
+        margin: auto;
+    }
+    .video{
+        max-width: 250px;
     }
     article p,article h3{
         margin: 10px;
