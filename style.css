@@ -7,7 +7,7 @@ main{
     background-color: rgb(225, 191, 148);
     padding: 50px;
     margin: auto;
-    overflow: scroll;
+   
     border-radius: 10px;
 }
 

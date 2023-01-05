@@ -4,7 +4,7 @@ body{
 main{
     box-sizing: border-box;
     max-width: 1000px;
-    overflow: scroll;
+    
     background-color: rgb(225, 191, 148);
     padding: 10px;
     margin: auto;
@@ -123,6 +123,7 @@ article{
 @media only screen and (max-width: 700px) {
     main{
         width: 100%;
+        overflow: scroll;
     }
     
     nav{
@@ -152,6 +153,8 @@ article{
 @media only screen and (max-width: 500px) {
     main{
         width: 100%;
+        overflow: scroll;
+
     }
     nav{
         width: 90%;
@@ -182,6 +185,7 @@ article{
 @media only screen and (max-width: 400px) {
     main{
         width: 100%;
+        overflow: scroll;
     }
     nav{
         width: 80%;

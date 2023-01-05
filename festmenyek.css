@@ -9,7 +9,7 @@ main{
     margin: auto;
     border: 1px black solid;
     border-radius: 10px;
-    overflow: scroll;
+    
 }
 
 .festes{
@@ -97,6 +97,7 @@ nav{
         "t"
         "f"
         ;
+        overflow: scroll;
     }
     .festes img{
         max-width: 150px;
@@ -113,6 +114,7 @@ nav{
         "t"
         "f"
         ;
+        overflow: scroll;
     }
     .festes img{
         max-width: 150px;
@@ -129,6 +131,7 @@ nav{
         "t"
         "f"
         ;
+        overflow: scroll;
     }
     .festes img{
         max-width: 150px;

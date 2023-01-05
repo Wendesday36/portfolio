@@ -8,7 +8,7 @@ main{
     padding: 50px;
     margin: auto;
     border: 1px black solid;
-    overflow: scroll;
+    
 }
 nav ul{
     padding: 0;
@@ -83,6 +83,7 @@ footer{
         "f"
         ;
         padding: 20px;
+        overflow: scroll;
     }
     .galeriakepek img{
         margin: 0;
@@ -106,10 +107,10 @@ footer{
         display: grid;
         grid-template-areas: "n"
         "ar"
-        
         "f"
         ;
         padding: 10px;
+        overflow: scroll;
     }
     #galeria{
         display: grid;
@@ -145,6 +146,7 @@ footer{
         "f"
         ;
         padding: 10px;
+        overflow: scroll;
     }
     #galeria{
         display: grid;

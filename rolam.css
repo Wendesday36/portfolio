@@ -6,7 +6,7 @@ main{
     background-color: antiquewhite;
     margin: auto;
     max-width: 1250px;
-    overflow: scroll;
+    
     display: grid;
     border: 1px black solid;
     grid-template-areas: "n n"
@@ -140,6 +140,7 @@ table,th,tr{
         "v"
         "f"
         ;
+        overflow: scroll;
     }
     .sorozat{
         margin: auto;
@@ -164,6 +165,7 @@ table,th,tr{
         "v"
         "f"
         ;
+        overflow: scroll;
     }
     .sorozat{
         margin: auto;
@@ -191,6 +193,7 @@ table,th,tr{
         "v"
         "f"
         ;
+        overflow: scroll;
     }
     .sorozat{
         margin: auto;
