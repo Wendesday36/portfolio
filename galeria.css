@@ -103,6 +103,41 @@ footer{
 
     }
     }
+@media only screen and (max-width:500px){
+    main{
+        display: grid;
+        grid-template-areas: "n"
+        "ar"
+        
+        "f"
+        ;
+        padding: 10px;
+    }
+    #galeria{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: auto;
+        padding: 0;
+
+    }
+    .visszagomb img{
+        width: 30px;
+    }
+    .galeriakepek img{
+        margin: 5px;
+    }
+    .galeriakepekfekvo{
+        padding-right: 5px;
+        margin: auto;
+    }
+    nav{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    footer{
+        padding-right: 20px;
+    }
+    }
 @media only screen and (max-width: 400px) {
     main{
         display: grid;
