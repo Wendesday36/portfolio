@@ -57,6 +57,13 @@ footer{
     grid-template-columns: 1fr;
    
 }
+.visszagomb img{
+    width: 40px;
+}
+
+.visszagomb{
+    position: relative;
+}
 .galeriakepek img{
     margin: 10px;
     float: right;
@@ -112,6 +119,12 @@ footer{
         margin: auto;
         padding: 0;
 
+    }
+    .visszagomb img{
+        width: 30px;
+    }
+    .galeriakepek img{
+        margin: 5px;
     }
     .galeriakepekfekvo{
         padding-right: 5px;

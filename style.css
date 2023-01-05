@@ -15,7 +15,9 @@ main{
     max-height: 300px;
     border: 1px black solid;
     padding: 15px;
+    border-radius: 10px;
 }
+
 .menu{
     border: 1px black solid;
     padding: 15px;
