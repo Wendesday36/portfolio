@@ -51,16 +51,12 @@ footer{
     width: 100%;
 }
 .galeriakepek{
-    
-    
     display: grid;
     grid-template-columns: 1fr;
-   
 }
 .visszagomb img{
     width: 40px;
 }
-
 .visszagomb{
     position: relative;
 }

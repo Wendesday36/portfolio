@@ -89,7 +89,7 @@ article{
     text-align: center;
     margin: auto;
     border-radius: 10px;
-    background-color: bisque;
+    background-color: rgb(215, 180, 147);
     grid-area: g;
     width:100%;
     padding: 15px;
@@ -100,8 +100,8 @@ article{
     color: black;
 }
 .gomb:hover{
-    background-color: rgb(215, 180, 147);
     font-weight: bold;
+    background-color: bisque;
 }
 .container{
     width: 100%;
