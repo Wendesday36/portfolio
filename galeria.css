@@ -51,6 +51,7 @@ footer{
 }
 .galeria img{
     width: 100%;
+    
 }
 .galeriakepek{
     display: grid;
@@ -65,7 +66,8 @@ footer{
 .galeriakepek img{
     margin: 10px;
     float: right;
-    padding-right: 30px;
+   
+    border-radius: 10px;
 }
 .galeriakepekfekvo{
     display: grid;
@@ -74,6 +76,7 @@ footer{
 }
 .galeriakepekfekvo img{
     margin: 10px;
+    border-radius: 10px;
 }
 @media only screen and (max-width: 700px) {
     main{
@@ -124,6 +127,7 @@ footer{
     }
     .galeriakepek img{
         margin: 5px;
+        padding-right: 15px;
     }
     .galeriakepekfekvo{
         padding-right: 5px;
