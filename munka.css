@@ -52,6 +52,7 @@ article{
     font-style: italic;
     grid-area: sz;
     float: right;
+    width: 200px;
 }
 
 .insta1 img{
@@ -61,14 +62,14 @@ article{
     padding: 15px;
 }
 .szoveg p{
-    
+    word-wrap: break-word;
     padding: 10px;
     text-align: justify;
 }
 .munka img{
     float: left;
     max-width: 250px;
-    margin: auto;
+    margin: 10px;
     border-radius: 10px;
 }
 .munka{
@@ -91,13 +92,14 @@ article{
     background-color: bisque;
     grid-area: g;
     width:100%;
-    
+    padding: 15px;
+    border: 1px rgb(189, 137, 85) solid;
 }
 .gomb a{
     text-decoration: none;
     color: black;
 }
-.gomb a:hover{
+.gomb:hover{
     background-color: rgb(215, 180, 147);
     font-weight: bold;
 }
@@ -124,9 +126,15 @@ article{
     .munka img{
         width: 100%;
     }
+    .szoveg{
+        width: 300px; ;
+    }
     .szoveg p{
         text-align: justify;
         float: none;
+    }
+    .gomb{
+        margin-bottom: 5px;
     }
     .content{
         display: grid;
@@ -136,6 +144,36 @@ article{
                             " g g g";
     }
     }
+@media only screen and (max-width: 500px) {
+    main{
+        width: 100%;
+    }
+    nav{
+        width: 90%;
+        margin: auto;
+    }
+    .munka img{
+        width: 100%;
+    }
+    .szoveg p{
+        text-align: justify;
+        float: none;
+    }
+    .szoveg{
+        width: 250px;
+    }
+    .gomb{
+        margin-bottom: 5px;
+    }
+    .content{
+        display: grid;
+        grid-template-areas: "s s s"
+                            "m m m"
+                            "sz sz sz"
+                            " g g g";
+    }
+    }
+    
 @media only screen and (max-width: 400px) {
     main{
         width: 100%;
@@ -158,33 +196,17 @@ article{
         text-align: justify;
         box-sizing: border-box;
     }
+    .szoveg{
+        width: 200px;
+    }
+    .gomb{
+        margin-bottom: 5px;
+    }
     .content{
         display: grid;
         grid-template-areas: "s s s"
                             "m m m"
                             " sz sz sz"
-                            " g g g";
-    }
-    }
-@media only screen and (max-width: 500px) {
-    main{
-        width: 100%;
-    }
-    nav{
-        width: 90%;
-    }
-    .munka img{
-        width: 100%;
-    }
-    .szoveg p{
-        text-align: justify;
-        float: none;
-    }
-    .content{
-        display: grid;
-        grid-template-areas: "s s s"
-                            "m m m"
-                            "sz sz sz"
                             " g g g";
     }
     }
