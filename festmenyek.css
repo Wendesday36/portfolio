@@ -8,10 +8,14 @@ main{
     padding : 30px;
     margin: auto;
     border: 1px black solid;
+    border-radius: 10px;
+    overflow: scroll;
 }
 
 .festes{
-    background-color: rgb(232, 217, 195);
+    border: 1px brown solid;
+    background-color: rgb(218, 160, 109);
+    border-radius: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-area: fs;
@@ -20,12 +24,13 @@ main{
 }
 .festes img{
     margin: auto;
-    border: 1px black solid;
+    
     padding: 5px;
+    border-radius: 10px;
 }
 .tobbi{
     text-align: center;
-    background-color: rgb(215, 180, 147);
+    background-color: rgb(225, 191, 148);
     grid-area: t;
    
    
@@ -39,7 +44,7 @@ main{
     font-size: large;
     background-color: antiquewhite;
     border-radius: 3px;
-    width:100%;
+    width:auto;
     text-align: center;
     color: black;
 }
@@ -52,7 +57,8 @@ nav ul li{
     border: rgb(255, 255, 255) solid 1px;
     border-radius: 12px;
     padding: 5px;
-    background-color: rgb(196, 168, 131);
+    border: 1px bisque solid;
+    background-color: rgb(193, 154, 107);
     color: white;
     text-align: center;
 }
@@ -65,7 +71,8 @@ nav ul li a{
 footer{
     grid-area: f;
     text-align: center;
-    background-color: aliceblue;
+    background-color: bisque;
+    border-radius: 10px;
 }
 .insta img{
     max-width: 30px;
@@ -98,22 +105,6 @@ nav{
         grid-template-columns: none;
     }
     }
-@media only screen and (max-width: 400px) {
-    main{
-        display: grid;
-        grid-template-areas: "n"
-        "fs"
-        "t"
-        "f"
-        ;
-    }
-    .festes img{
-        max-width: 150px;
-    }
-    .festes{
-        grid-template-columns: none;
-    }
-    }
 @media only screen and (max-width: 500px) {
     main{
         display: grid;
@@ -130,4 +121,21 @@ nav{
         grid-template-columns: none;
     }
     }
+@media only screen and (max-width: 400px) {
+    main{
+        display: grid;
+        grid-template-areas: "n"
+        "fs"
+        "t"
+        "f"
+        ;
+    }
+    .festes img{
+        max-width: 150px;
+    }
+    .festes{
+        grid-template-columns: none;
+    }
+    }
+
 

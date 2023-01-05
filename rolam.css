@@ -6,6 +6,7 @@ main{
     background-color: antiquewhite;
     margin: auto;
     max-width: 1250px;
+    overflow: scroll;
     display: grid;
     border: 1px black solid;
     grid-template-areas: "n n"
@@ -14,6 +15,11 @@ main{
                         "t t"
                         "v v"
                         "f f";
+}
+nav{
+    grid-area: n;
+    width:90%;
+    margin: auto;
 }
 nav ul li{
     list-style-type: none;
@@ -37,7 +43,8 @@ nav ul li a{
 footer{
     grid-area: f;
     text-align: center;
-    background-color: aliceblue;
+    background-color: bisque;
+    border-radius: 10px;
 }
 .insta img{
     max-width: 30px;
@@ -62,6 +69,14 @@ aside{
     grid-area: as;
     
 }
+td a{
+    text-decoration: none;
+    color: black;
+    
+}
+td a:hover{
+    color: brown;
+}
 .tablazat{
     max-width: 100%;
     grid-area: t;
@@ -73,19 +88,7 @@ aside{
     border-bottom: 1px black solid;
     max-width: 100%;
 }
-aside a{
-    background-color: rgb(203, 178, 146);
-    color: black;
-    text-align: center;
-    margin: auto;
-    border: 1px black solid;
-    text-decoration: none;
-}
-nav{
-    grid-area: n;
-    width:90%;
-    margin: auto;
-}
+
 .rolam{
     max-width: 200px;
     float: right;
@@ -96,14 +99,10 @@ table{
     margin-top: 10px;
     border: 1px burlywood solid;
     border-radius: 10px;
+    
 }
 table,th,tr{
     width: 100%;
-}
-tr{
-    text-align: center;
-}
-th{
     text-align: center;
 }
 .video{
@@ -111,12 +110,7 @@ th{
     width:400px;
     margin: 10px;
 }
-.sorozat p{
-    gap: 30px
-;
-}
-
-   
+ 
 .sorozatok{
     float: right;
     grid-area: v;
@@ -132,7 +126,9 @@ th{
 .sorozatok p{
     text-align: justify;
     font-size: medium;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    gap: 30px;
+    font-weight: lighter;
+    font-style: normal;
 }
 @media only screen and (max-width: 700px) {
     main{
@@ -156,6 +152,33 @@ th{
     }
     .tablazat{
         max-width: 400px;
+    }
+    }
+@media only screen and (max-width: 500px) {
+    main{
+        display: grid;
+        grid-template-areas: "n"
+        "ar"
+        "as"
+        "t"
+        "v"
+        "f"
+        ;
+    }
+    .sorozat{
+        margin: auto;
+    }
+    .video{
+        max-width: 250px;
+    }
+    article p,article h3{
+        margin: 10px;
+    }
+    nav{
+        margin: 10px;
+    }
+    .tablazat{
+        max-width:  300px;
     }
     }
 @media only screen and (max-width: 400px) {
@@ -188,30 +211,4 @@ th{
         max-width:  300px;
     }
     }
-@media only screen and (max-width: 500px) {
-    main{
-        display: grid;
-        grid-template-areas: "n"
-        "ar"
-        "as"
-        "t"
-        "v"
-        "f"
-        ;
-    }
-    .sorozat{
-        margin: auto;
-    }
-    .video{
-        max-width: 250px;
-    }
-    article p,article h3{
-        margin: 10px;
-    }
-    nav{
-        margin: 10px;
-    }
-    .tablazat{
-        max-width:  300px;
-    }
-    }
+

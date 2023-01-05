@@ -4,9 +4,11 @@ body{
 main{
     box-sizing: border-box;
     max-width: 1000px;
+    overflow: scroll;
     background-color: rgb(225, 191, 148);
     padding: 10px;
     margin: auto;
+    border-radius: 10px;
     border: 1px black solid;
     display: grid;
     grid-template-areas: "n n n"
@@ -26,7 +28,8 @@ nav ul li{
     border: rgb(255, 255, 255) solid 1px;
     border-radius: 12px;
     padding: 5px;
-    background-color: rgb(196, 168, 131);
+    border: 1px rgb(189, 137, 85) solid;
+    background-color:bisque;
     color: white;
     text-align: center;
 }
@@ -38,7 +41,8 @@ nav ul li a{
 }
 footer{
     text-align: center;
-    background-color: aliceblue;
+    background-color: bisque;
+    border-radius: 10px;
     grid-area: f;
 }
 .insta img{
@@ -89,7 +93,7 @@ article{
     text-align: center;
     margin: auto;
     border-radius: 10px;
-    background-color: rgb(215, 180, 147);
+    background-color: antiquewhite;
     grid-area: g;
     width:100%;
     padding: 15px;
@@ -101,7 +105,7 @@ article{
 }
 .gomb:hover{
     font-weight: bold;
-    background-color: bisque;
+    background-color:bisque;
 }
 .container{
     width: 100%;
@@ -120,6 +124,7 @@ article{
     main{
         width: 100%;
     }
+    
     nav{
         width: 90%;
     }

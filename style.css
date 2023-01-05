@@ -7,7 +7,8 @@ main{
     background-color: rgb(225, 191, 148);
     padding: 50px;
     margin: auto;
-    border: 1px black solid;
+    overflow: scroll;
+    border-radius: 10px;
 }
 
 .menu img{
@@ -19,7 +20,8 @@ main{
 }
 
 .menu{
-    border: 1px black solid;
+    border-radius: 10px;
+    border: 1px rgb(218, 160, 109) solid;
     padding: 15px;
     text-align: center;
     margin: auto;
@@ -47,7 +49,8 @@ div{
 }
 footer{
     text-align: center;
-    background-color: aliceblue;
+    background-color: bisque;
+    border-radius: 10px;
 }
 article{
     box-sizing: border-box;
