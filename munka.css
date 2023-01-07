@@ -69,6 +69,7 @@ article{
     word-wrap: break-word;
     padding: 10px;
     text-align: justify;
+    font-size: large;
 }
 .munka img{
     float: left;
